@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="mi"
-                 name="Main Instance"
+                 name="Ummha blog.DEV-STATION"
                  start-page="welcome.topic">
 
     <toc-element topic="welcome.topic"/>

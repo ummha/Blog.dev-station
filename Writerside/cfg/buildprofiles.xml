@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <algolia-id>5G73Y2R52I</algolia-id>
+        <algolia-index>dev_doc</algolia-index>
+        <algolia-api-key>c952091753a3cedef3e2df05ef815311</algolia-api-key>
+    </variables>
+
+    <build-profile instance="mi">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <primary-color>aqua</primary-color>
+        </variables>
+    </build-profile>
+
+    <footer>
+<!--        <copyright>Product 2000-2023</copyright>-->
+        <!--        <icp>123456789</icp>-->
+<!--        <social type="blog" href="link to a blog"></social>-->
+<!--        <social type="twitter" href="link to a Twitter account"></social>-->
+<!--        <social type="facebook" href="link to a Facebook account"></social>-->
+        <link href="https://github.com/ummha">음하 깃허브</link>
+        <link href="mailto:ummha.dev@gmail.com">ummha.dev@gmail.com</link>
+<!--        <link href="https://example.com/terms-an-conditions.html">Terms and conditions</link>-->
+<!--        <link href="https://example.com/code-of-conduct.html">Code of Conduct</link>-->
+    </footer>
+
+</buildprofiles>

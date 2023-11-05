@@ -53,7 +53,7 @@
 
         <misc>
             <cards>
-                <title>Custom cards</title>
+                <title>About Blog</title>
                 <a href="docker-about.md"
                    type="start"
                    summary="본 블로그는 Jetbrains의 Writerside로 만들어졌습니다. 글 작성 시 유용했던 모든 것을 소개합니다.">
