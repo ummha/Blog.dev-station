@@ -15,12 +15,12 @@
 
         <spotlight>
             <title>Main Tech</title>
-            <a href="Reference.md"
+            <a href="docker-about.md"
                type="container"
                summary="자바 관련 기본 사용법, 개념과 지식">
                 Java 자바
             </a>
-            <a href="Reference.md"
+            <a href="docker-about.md"
                type="container"
                summary="스프링 관련 기본 사용법, 개념과 지식">
                 Spring 스프링
@@ -30,12 +30,12 @@
         <primary>
         <!-- #spotlight 섹션이 아직 준비되지 않아서 primary 섹션을 spotlight 섹션으로 임시 대체함. -->
             <title>Main Tech</title>
-            <a href="Reference.md"
+            <a href="docker-about.md"
                type="container"
                summary="자바 관련 기본 사용법, 개념과 지식">
                 Java 자바
             </a>
-            <a href="Reference.md"
+            <a href="docker-about.md"
                type="container"
                summary="스프링 관련 기본 사용법, 개념과 지식">
                 Spring 스프링
@@ -44,7 +44,7 @@
 
         <secondary>
             <title>Sub Tech and Learning</title>
-            <a href="Reference.md"
+            <a href="docker-about.md"
                type="learn"
                summary="코틀린 관련 기본 사용법, 개념과 지식">
                 Kotlin 코틀린
@@ -54,7 +54,7 @@
         <misc>
             <cards>
                 <title>Custom cards</title>
-                <a href="Reference.md"
+                <a href="docker-about.md"
                    type="start"
                    summary="본 블로그는 Jetbrains의 Writerside로 만들어졌습니다. 글 작성 시 유용했던 모든 것을 소개합니다.">
                     글 작성 가이드
