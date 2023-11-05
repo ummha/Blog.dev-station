@@ -26,8 +26,8 @@ env:
   ALGOLIA_APP_NAME: 5G73Y2R52I
   ALGOLIA_INDEX_NAME: dev_doc
   ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
-  CONFIG_JSON_PRODUCT: mi
-  CONFIG_JSON_VERSION: 1
+  CONFIG_JSON_PRODUCT: main
+#  CONFIG_JSON_VERSION:
 
 jobs:
   build:
@@ -131,6 +131,6 @@ jobs:
           --application-name ${{env.ALGOLIA_APP_NAME}} \
           --index-name ${{env.ALGOLIA_INDEX_NAME}} \
           --product ${{env.CONFIG_JSON_PRODUCT}} \
-          --version ${{env.CONFIG_JSON_VERSION}} \
           --index-directory algolia-indexes/ \
           2>&1 | tee algolia-update-index-log.txt
+#          --version ${{env.CONFIG_JSON_VERSION}} \
