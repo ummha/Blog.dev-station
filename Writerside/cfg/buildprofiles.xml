@@ -10,7 +10,7 @@
 
     <build-profile instance="mi">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
             <primary-color>aqua</primary-color>
         </variables>
     </build-profile>
