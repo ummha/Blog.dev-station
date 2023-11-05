@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="di"
+                  name="Docker Instance"
+                  start-page="Reference.md"
+                  is-library="true">
+
+    <toc-element id="docker-guide" toc-title="Docker 도커">
+        <toc-element topic="Reference.md"/>
+    </toc-element>
+</instance-profile>

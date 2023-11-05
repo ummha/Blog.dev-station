@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="mi"
+                 name="Main Instance"
+                 start-page="welcome.topic">
+
+    <toc-element topic="welcome.topic"/>
+    <include from="di.tree" element-id="docker-guide"/>
+
+</instance-profile>
