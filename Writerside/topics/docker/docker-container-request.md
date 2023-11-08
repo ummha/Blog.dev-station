@@ -8,7 +8,7 @@
 -p ${호스트 포트}:${컨테이너 포트}
 ```
 ```Shell
-# (예시) Apache 이미지인 httpd 이미지로 컨테이너를 생성하고 호스트 포트 8080을 컨테이너 포트 80에 매핑 
+# e.g. Apache 이미지인 httpd 이미지로 컨테이너를 생성하고 호스트 포트 8080을 컨테이너 포트 80에 매핑 
 docker run --name web-container -d -p 8080:80 httpd
 ```
 {collapsible="true" default-state="collapsed"}

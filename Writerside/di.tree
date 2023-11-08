@@ -15,5 +15,6 @@
         <toc-element topic="docker-command-image.md"/>
         <toc-element topic="docker-command-option.md"/>
         <toc-element topic="docker-container-request.md"/>
+        <toc-element topic="docker-dockerfile-about.md"/>
     </toc-element>
 </instance-profile>
