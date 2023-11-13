@@ -1,4 +1,4 @@
-# Dockerfile Practice
+# Practice. Dockerfile
 
 간단하게 도커파일을 작성하여 정적파일을 웹서버 컨테이너에 실행하는 실습을 해봅니다.
 
