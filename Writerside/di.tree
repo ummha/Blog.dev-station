@@ -18,6 +18,8 @@
         <toc-element topic="docker-dockerfile-about.md">
             <toc-element topic="docker-dockerfile-practice.md"/>
         </toc-element>
-        <toc-element topic="docker-docker-compose-about.md"/>
+        <toc-element topic="docker-docker-compose-about.md">
+            <toc-element topic="docker-docker-compose-practice-1.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

@@ -1,5 +1,7 @@
 # Docker Compose 작성하기
 
+Dockerfile에 이어 docker-compose YAML 파일의 작성 양식을 살펴보고 각 설정 키워드의 의미와 명령어를 정리하겠습니다.
+
 ## Docker Compose 란? {id="docker-compose-description"}
 
 Docker Compose 파일은 도커 애플리케이션 서비스, 네트워크, 볼륨 등의 설정을 YAML 형식으로 작성하는 파일입니다.
