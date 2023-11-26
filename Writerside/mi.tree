@@ -8,5 +8,6 @@
 
     <toc-element topic="welcome.topic"/>
     <include from="di.tree" element-id="docker-guide"/>
+    <include from="bi.tree" element-id="business-knowledge"/>
 
 </instance-profile>
