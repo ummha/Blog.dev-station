@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="bi"
+                  name="Business Instance"
+                  start-page="business-instance.md" is-library="true">
+
+    <toc-element id="business-knowledge" topic="business-instance.md">
+        <toc-element id="stock" toc-title="주식">
+            <toc-element topic="stock-siga-md.md"/>
+            <toc-element topic="stock-002.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
