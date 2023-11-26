@@ -321,6 +321,7 @@ public class MarketApplication {
 각 모듈 별로 애플리케이션 프로퍼티를 설정합니다.
 
 ```yaml
+# :api-delivery
 server:
   servlet:
     context-path: /delivery
@@ -335,6 +336,7 @@ spring:
 ```
 
 ```yaml
+# :api-market
 server:
   servlet:
     context-path: /market
