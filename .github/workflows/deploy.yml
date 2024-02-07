@@ -101,13 +101,13 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: dir
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
 
   publish-indexes:
     # Requires the build-job results
@@ -118,7 +118,7 @@ jobs:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
 
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
           name: algolia-indexes
