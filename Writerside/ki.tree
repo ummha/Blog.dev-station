@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="ki"
+                  name="Kafka Instance"
+                  start-page="kafka-basic-apache-kafka.md"
+                  is-library="true">
+
+    <toc-element id="kafka-guide" toc-title="카프카(Kafka)">
+        <toc-element id="kafka-basic" toc-title="카프카 기본 개념 이해">
+            <toc-element topic="kafka-basic-apache-kafka.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
