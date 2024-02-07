@@ -8,6 +8,7 @@
 
     <toc-element topic="welcome.topic"/>
     <include from="di.tree" element-id="docker-guide"/>
-    <include from="bi.tree" element-id="business-knowledge"/>
+    <include from="ki.tree" element-id="kafka-guide"/>
+<!--    <include from="bi.tree" element-id="business-knowledge"/>-->
 
 </instance-profile>
