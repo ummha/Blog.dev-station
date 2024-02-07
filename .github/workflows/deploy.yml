@@ -107,7 +107,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v1
 
   publish-indexes:
     # Requires the build-job results
@@ -118,7 +118,7 @@ jobs:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
 
     steps:
-      - uses: actions/checkout@v3 # v4 Not Supported yet
+#      - uses: actions/checkout@v3 # v4 Not Supported yet
       - uses: actions/download-artifact@v3 # v4 Not Supported yet
         with:
           name: algolia-indexes
